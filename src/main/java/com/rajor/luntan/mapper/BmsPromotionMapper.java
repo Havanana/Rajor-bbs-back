@@ -1,0 +1,10 @@
+package com.rajor.luntan.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.rajor.luntan.model.entity.BmsPromotion;
+import org.springframework.stereotype.Repository;
+
+
+@Repository
+public interface BmsPromotionMapper extends BaseMapper<BmsPromotion> {
+}
